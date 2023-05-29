@@ -60,3 +60,12 @@ a:link {
 a:visited{
 color:blueviolet ;    
 }
+
+a:hover{
+    color: orangered;
+    text-decoration: underline dotted orangered;
+}
+
+a:active{
+    background-color: blue;
+}
