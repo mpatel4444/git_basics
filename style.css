@@ -50,3 +50,13 @@ ul{
 li:first-child {
 color: blue;
 }
+
+/* style hyperlinks example */
+a:link {
+    color:brown;
+    text-decoration: none;
+}
+
+a:visited{
+color:blueviolet ;    
+}
