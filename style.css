@@ -1,3 +1,29 @@
 body{
-    background-color: aquamarine;
+    background-color:aliceblue;
+}
+
+h3, h2, h3 {
+    font-family: fantasy;
+    color: brown;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: larger;
+    color:royalblue;
+}
+
+ol{
+    font-style: italic;
+}
+
+ul{
+    font-style:normal;
+    font-weight: bolder;
+}
+
+footer p {
+    font-size:medium;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
 }
