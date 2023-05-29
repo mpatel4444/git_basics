@@ -1,5 +1,5 @@
 body{
-    background-color:aliceblue;
+    background-color:rgb(240, 226, 226);
 }
 
 h3, h2, h3 {
@@ -14,7 +14,10 @@ p {
 }
 
 ol{
+    background-color: aqua;
     font-style: italic;
+    border: 5px solid #df1f1f;
+    border-style:dashed;
 }
 
 ul{
@@ -22,8 +25,28 @@ ul{
     font-weight: bolder;
 }
 
-footer p {
+.footer_p {
     font-size:medium;
     font-family: 'Times New Roman', Times, serif;
     color:black;
+    font-size: small;
+    background-color: rgb(177, 143, 143);
+    text-align: center;
+}
+
+.class-test{
+    font-weight: 900;
+    font-style: italic;
+    font-family: serif;
+    color: rgb(165, 20,200,0.8);
+}
+
+.ul-list {
+    list-style: none;
+    color: rgb(37, 57, 120);
+}
+
+/* Psudo class example --> */
+li:first-child {
+color: blue;
 }
