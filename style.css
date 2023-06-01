@@ -9,9 +9,26 @@ body{
 
 }
 
+h1{
+    position: relative;
+}
+
+h1::after{
+    content: "TOP";
+    background-color: coral;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px;
+    position: absolute;
+    top: -0px;
+    right: -25px;
+}
+
 .padding-test{
     color: #df1f1f;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     padding: 20px 40px;
 }
 
